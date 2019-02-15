@@ -2,6 +2,7 @@
 
 html {
 	font-family: 'Roboto', sans-serif;
+
 }
 
 @media (min-width: 576px) {
@@ -28,9 +29,6 @@ html {
 	}
 }
 
-.icons-social i {
-	font-size: 3em;
-}
 
 /* Custom Styles */
 
@@ -41,37 +39,50 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
+	#width=40rem;
 }
 
-main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
-}
+
 
 main > .tagline {
-	font-size: 1.5rem;
+
+	font-size: 2.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
 }
 
 main > .text {
-	font-size: 1.0rem;
-	margin: 1.5rem 0;
+	
+
+	font-size: 1.5rem;
+	width: 50rem;
+
+    margin-left: auto;
+    margin-right: auto;
 	font-weight: 100;
+	margin-bottom: 3rem;
+	
 }
 
-.icons-social i {
-	padding: 10px;
+/* Container holding the image and the text */
+main > .container {
+  margin-top: 2rem;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-.devto {
-	margin-bottom: -0.20rem;
+/* Centered text */
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ # font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  font-weight: 400;
 }
 
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
-}
+
+
+
